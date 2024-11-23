@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #35424a, #0077b5);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #2b3e50;
+    color: #f4f4f4;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    max-width: 500px;
+}
+
+.profile-info h2 {
+    margin: 0 0 10px;
+    font-size: 2em;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+.main-nav {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #35424a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-links a:hover {
+    background: #0077b5;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        margin: 0 0 20px;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #0077b5; /* Footer background color */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 10px; /* Padding around the footer */
+    position: relative; /* Positioning context for footer */
+    bottom: 0; /* Align at the bottom */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Space above the footer */
+}
+
+footer p {
+    margin: 5px 0; /* Space between footer paragraphs */
+}
+
+footer a {
+    color: white; /* Link color in footer */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

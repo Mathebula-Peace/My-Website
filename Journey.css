@@ -1,0 +1,48 @@
+/* Basic styles for the Journey page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077b5; /* Header background color */
+    color: white; /* White text color */
+    text-align: center; /* Center align text */
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px; /* Maximum width of the main content */
+    background-color: white; /* White background for main content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px auto; /* Centering with automatic left and right margins */
+}
+
+h2 {
+    color: #0077b5; /* Color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+}
+
+ul {
+    list-style-type: disc; /* Bullet points for list items */
+    padding-left: 20px; /* Indentation for list */
+}
+
+.back-link {
+    display: inline-block; /* Block display for button */
+    margin-top: 20px; /* Space above the link */
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+    background-color: #0077b5; /* Background color for the button */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for button */
+}
+
+.back-link:hover {
+    background-color: #005f8a; /* Darker shade on hover */
+}
